@@ -1,0 +1,11 @@
+{
+  "name": "@baileydalton/npmmoduledemo",
+  "version": "1.0.0",
+  "description": "A demo to publish to NPM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bailey Dalton",
+  "license": "MIT"
+}
