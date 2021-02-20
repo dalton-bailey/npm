@@ -8,8 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dalton-bailey/npm"
+    "url": "https://github.com/dalton-bailey/npm.git"
   },
+  "keywords": [
+    "demo"
+  ],
   "author": "Bailey Dalton",
   "license": "MIT"
 }
