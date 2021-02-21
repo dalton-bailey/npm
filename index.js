@@ -13,19 +13,31 @@ module.exports = function guessAge(number, boolean, year) {
   } else {
     let numByTwo = number * 2;
 
+    console.log(`${number} * 2 = ${numByTwo}`)
+
     let numPlusFive = numByTwo + 5;
-  
+
+    console.log(`${numByTwo} + 5 = ${numPlusFive}`)
+
     let numByFifty = numPlusFive * 50;
+
+    console.log(`${numPlusFive} * 50 = ${numByFifty}`)
   
     if (boolean === true) {
       nextNumber = numByFifty + 1771
+
+      console.log(`${numByFifty} + 1771 = ${nextNumber}`)
+
     }
     if (boolean === false) {
       nextNumber = numByFifty + 1770
+
+      console.log(`${numByFifty} + 1770 = ${nextNumber}`)
     }
   
-  
     let numberMinusYear = nextNumber - year;
+
+    console.log(`${nextNumber} - ${year} = ${numberMinusYear}`)
   
     (ageArray = []), (string = numberMinusYear.toString());
   
