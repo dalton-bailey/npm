@@ -1,6 +1,6 @@
 {
   "name": "@baileydalton/guessage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that calculates your age.",
   "main": "index.js",
   "scripts": {
