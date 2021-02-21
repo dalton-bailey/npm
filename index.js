@@ -36,11 +36,11 @@ module.exports = function guessAge(number, boolean, year) {
     }
   
     let numberMinusYear = nextNumber - year;
-
-    console.log(`${nextNumber} - ${year} = ${numberMinusYear}`)
   
     (ageArray = []), (string = numberMinusYear.toString());
   
+    console.log(`${nextNumber} - ${year} = ${numberMinusYear}`)
+
     for (var i = 0, len = string.length; i < len; i += 1) {
       ageArray.push(+string.charAt(i));
     }
