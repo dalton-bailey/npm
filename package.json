@@ -1,5 +1,5 @@
 {
-  "name": "@baileydalton/calculateage",
+  "name": "@baileydalton/guessage",
   "version": "1.0.0",
   "description": "A package that calculates your age.",
   "main": "index.js",
